@@ -50,6 +50,10 @@ vim.keymap.set("n", "<leader>pd", "<cmd>DiffviewOpen<CR>")
 vim.keymap.set("n", "<leader>ph", "<cmd>DiffviewFileHistory<CR>")
 vim.keymap.set("n", "<leader>vpp", "<cmd>e ~/.dotfiles/nvim/.config/nvim/lua/Bartek/packer.lua<CR>");
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
+vim.keymap.set("n", "<A-Left>", "<cmd>tabprevious<CR>")
+vim.keymap.set("n", "<A-Right>", "<cmd>tabnext<CR>")
+vim.keymap.set("n", "<A-Up>", "<cmd>tabnew<CR>")
+vim.keymap.set("n", "<C-q>", "<cmd>q<CR>")
 
 vim.keymap.set("n", "<leader><leader>", function()
     vim.cmd("so")
